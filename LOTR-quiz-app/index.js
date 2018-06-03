@@ -219,13 +219,14 @@ function handleAnswerSubmission() {
     }); 
 }
 
-function generateChoices(){
+function generateQuestion(){
   //generate HTML looping through array store
   
-  console.log(`generateChoices Ran`);
+  console.log(`generateQuestion Ran`);
   $(".quizBody").append(
       `<form>
          <fieldset class="quizAnswerOptions">
+         <legend>${QUESTIONS[questionNum].text}<\legend>
             
             <label>
               <input  type="radio" name="option"  value = "${QUESTIONS[questionNum].options[0]}" required> <span>    ${QUESTIONS[questionNum].options[0]}</span>
@@ -252,13 +253,6 @@ function generateChoices(){
    
 }
 
-function generateQuestion(){
-  //generate HTML around object store values in a template string 
-  
-  console.log(`generateQuestion Ran`);
-
-  $(".quizBody").append(`<div class= "js-quizQuestion quizQuestion"><p>${QUESTIONS[questionNum].text}</p></div>`); 
-}
 
 function generateQuestionImage(){
   //generate html around the image
@@ -275,8 +269,7 @@ function renderQuestion(){
 
  $(".quizBody").html();
   generateQuestionImage();
-  generateQuestion(),
-  generateChoices()
+  generateQuestion();
 }
 
 function handleStartQuiz () {
@@ -293,3 +286,4 @@ function handleStartQuiz () {
 }
  
 $(handleStartQuiz);
+

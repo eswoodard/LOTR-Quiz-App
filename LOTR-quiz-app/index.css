@@ -78,11 +78,18 @@ blockquote {
   margin-top: 20%;
 }
 
+.hidden {
+  display: none;
+}
+
 .mainContent {
   display: block;
   margin-left: auto;
   margin-right: auto;
+ 
 }
+
+
 
 button {
   margin-top: 8%;
@@ -107,14 +114,16 @@ button:focus {
 .questionImage, .finalResultsImage {
   width: 50%;
   border: 5px black double;
+ 
 }
 
 .finalResultsImage {
   margin-top: 10%;
 }
 
-.quizQuestion {
-  margin-top: 5%;
+legend {
+ padding-top: 5%;
+ text-align: center;
  
 }
 
