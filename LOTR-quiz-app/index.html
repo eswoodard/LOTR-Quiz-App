@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Test your knowledge of J.R.R. Tolkien's 'The Lord of the Rings'">
+    <title> "The Lord of the Rings" Quiz</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" type="text/css" rel="stylesheet">
+    <link href="float-grid.css" rel="stylesheet" type="text/css"/>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Cardo|IM+Fell+English" rel="stylesheet">
+  </head>
+  <body>
+
+    <header role = "banner">
+      <div class="row monogramContainer">
+        <div class="col-12">
+        <a href="index.html">
+          <img class="monogram" src="images/TolkienIcon.jpg" alt="JRRT Monogram"/>
+        </a>
+      </div>
+      </div>
+
+      <div class= "row questionScoreTracking">
+        <div class="col-12">
+          <ul class="questionTracking">
+            <li class="js-questionNumber"></li>
+            <li class="js-Score quizScore"></li>
+          </ul>
+        </div> 
+      </div>
+    </header>
+    
+   
+   
+      <div class="row startPage">
+        <div class="col-12">
+          <div class="titleQuestions">
+            <h1 class="titleQuestion">How well do you know <q>The Lord of the Rings?</q></h1>
+            <h2 class="titleQuestion2">Test your knowledge of Tolkien's classic novel!</h2>
+            </div>
+          <div class= "buttons">
+            <button class="js-startButton startButton">Test your knowledge!</button> 
+          </div>
+        </div>
+      </div>
+
+    <main role="main" class= "row">
+      <div class="col-12">
+        <div class ="mainContent">
+          <div class="quizBody"></div>
+        </div>
+      </div>
+    </main>
+       
+    
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>  
+    <script type="text/javascript" src="data-store.js"></script>
+    <script src="index.js"></script>   
+  </body>
+
+</html>

@@ -1,0 +1,181 @@
+html {
+  background: 
+  linear-gradient(
+  rgba(202, 207, 204, 0.65),
+  rgba(202, 207, 204, 0.65)
+  ),
+  url("images/LOTRMapAlt3.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+}
+
+ body, .quizBody {
+  font-family: 'IM Fell English', serif;
+  color: black;
+  text-align: center;
+  margin-bottom: 10%;
+ } 
+
+.quizBody img {
+  display: block;
+  margin: auto;
+}
+   
+  
+/*main, button, .questionTracking{
+  font-size: 30px;
+  
+ 
+}*/
+
+ul {
+  list-style-type: none;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+.monogram, button, .questionImage, .finalResultsImage, .feedbackQuote {
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.monogram {
+  height: 40%;
+  width: 20%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 5%;
+  border-radius: 100px;
+  border: black solid 5px;  
+}
+  
+.questionTracking {
+  padding: 10px 20px;
+  list-style: none;
+  float: right;     
+}
+
+ .quizScore {
+  float: right;
+}
+
+.titleQuestions {
+  margin-top: 15%;
+  
+}
+
+.titleQuestion {
+  font-size: 50px;
+}
+
+.titleQuestion2 {
+  font-size: 30px;
+ 
+}
+
+.startButton {
+  margin-top: 20%;
+}
+
+.mainContent {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  margin-top: 8%;
+  padding: 15px;
+  width: 60%;
+  border:  #9e8765 solid 3px;
+  border-radius: 10px; 
+  background: radial-gradient(#cab391, #9e8765);
+  cursor: pointer;
+}
+
+button:hover {
+    background: radial-gradient(#7b6445, #4d371f);
+    border: #4d371f solid 3px;
+    color: #cacfcc;
+}
+
+button:focus {
+  outline: none;
+}
+
+.questionImage, .finalResultsImage {
+  width: 50%;
+  border: 5px black double;
+}
+
+.finalResultsImage {
+  margin-top: 10%;
+}
+
+.quizQuestion {
+  margin-top: 5%;
+ 
+}
+
+label {
+  display: block;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: rgba(149, 158, 153, 0.7);
+  border-radius: 10px;
+  border: 1px solid #adaaa1;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+label:hover {
+  background-color: rgba(59, 63, 61, 0.7);
+  color: #d6d5d0;
+  border: #959e99;
+}
+
+.quizAnswerOptions {
+  border-width: 0;
+  border: none;
+  text-align: left;
+}
+
+.feedbackQuote {
+  border: 8px black double;
+  padding: 5%;
+  color: #cacfcc;
+  background-color: rgba(90, 91, 75, 0.9);
+  }
+
+blockquote:before {
+  content: open-quote;
+  display: inline;
+  line-height: 0;
+  left: -10px;
+  position: relative;
+  top: 30px;
+  font-size: 3em;
+}
+
+blockquote:after {
+  content: close-quote;
+  display: inline;
+  line-height: 0;
+  left: 10px;
+  position: relative;
+  top: 35px;
+  font-size: 3em;
+}
+
+.correctAnswer, .incorrectAnswer {
+  margin-top: 10%;
+  /*font-size: 40px;*/
+}
+
+.highScore, .lowScore, .midScore {
+  margin-top: 10%;
+}
+
+
+
